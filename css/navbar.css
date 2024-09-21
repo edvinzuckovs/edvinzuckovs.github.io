@@ -1,0 +1,173 @@
+
+.siteNav {
+    height: 100px;
+    display: flex;
+    justify-content: left;  
+    align-items: center;     
+    /*border-bottom: 1px solid lightgray;*/
+    overflow: hidden;
+}
+.navSiteTitle{
+    margin-left: 70px;
+    font-size: 26px;
+   
+}
+.navLinks {
+    position: absolute;
+    right: 100px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+.navLinkButton {
+    cursor: pointer;
+    margin: 16px;
+    
+}
+
+.navLinkButton:hover{
+    transition: all 0.4s ease;
+    /*text-decoration: underline;*/
+    /*border-bottom: 1px solid black;*/
+}
+.navLinkSocialImg {
+    height: 20px;
+    width: auto;
+    
+}
+
+
+.navLinkActive{
+    border-bottom: 1px solid black;
+}
+
+
+.mobileMenuLinks {
+    display: none;
+}
+.mobileMenuSocials {
+    display: none;
+}
+#mobileMenuButton {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .siteNav {
+        overflow-y: hidden;
+        height: 100px;
+        display: flex;
+        justify-content: left;  
+        align-items: center;   
+        margin-bottom: 10px;
+        
+        /*border-bottom: 1px solid lightgray;*/
+    }
+    .navSiteTitle{
+        margin-left: 20px;
+        font-size: 25px;
+        
+    }
+    .navLinks {
+        display: none;
+        visibility: hidden;
+        position: absolute;
+        right: 200px;
+        display: flex;
+        justify-content: center;  
+        align-items: center;  
+    }
+    .navLinkButton {
+        display: none;
+        cursor: pointer;
+        margin: 16px;
+
+    }
+    .navLinkSocialImg {
+        display: none;
+        height: 20px;
+        width: auto;
+        
+    }
+    .navLinkMobile {
+        display: inherit;
+        position: absolute;
+        right: 40px;
+        display: flex;
+        justify-content: center;  
+        align-items: center;  
+    }
+
+    #mobileMenuButton {
+        display: block;
+        transition: all 0.5s ease;
+    }
+
+    /*--------------------------------*/
+
+    .mobileMenu {
+        overflow: hidden;
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        height: 90%;
+        background-color: #ffffff;
+        top: 90px;
+        text-align: center;
+        transition: all 0.3s ease;
+
+    }
+    .mobileMenu.closed {
+        opacity: 0;
+        z-index: -999;
+    }
+    .mobileMenu.open {
+        opacity: 1;
+        z-index: 1000;
+    }
+
+
+    .mobileMenuLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;        
+    }
+    .mobileMenuLink {
+        font-size: 35px;
+        margin: 20px;
+        transition: all 0.4s ease;
+    }
+    .mobileMenuLink:hover {
+        border-bottom: 1px solid gray;
+    }
+    .mobileMenuLinkSmall {
+        font-size: 25px;
+        margin: 15px;
+        transition: all 0.4s ease;
+    }
+    .mobileMenuLinkSmall:hover {
+        border-bottom: 1px solid gray;
+    }
+    
+
+
+
+    .mobileMenuSocials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .mobileMenuSocialsIcon {
+        position: relative;
+        margin-top: 200px;
+        width: 30px; 
+        height: auto;
+        margin: 15px;
+
+    }
+}

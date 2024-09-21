@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+html, body {
+    font-family: Inter;
+    transition: all 1s ease;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.fancyButton{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px lightgray;
+}
+.fancyButton:hover {
+    background-color: #333;
+    box-shadow: 0px 0px 10px 1px #222;
+}
+.fancyButton:active {
+    transform: scale(0.9);
+}
+
+
+/*
+@keyframes fadeOut {
+    0%{opacity: 1;}
+    70%{opacity: 0.5;}
+    100%{opacity: 0;}
+}
+
+*/
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }

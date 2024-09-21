@@ -1,0 +1,188 @@
+.defaultInputStyle {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 16px;
+    border: 1px solid black;
+    font-family: Inter;
+}
+.sendButton {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.sendButton:hover {
+    background-color: #333;
+}
+
+.contactMeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.contactForm {
+    width: 30%;
+    margin-right: 200px;
+}
+.contactFormImageContainer {
+    width: 40%;
+    height: 800px;
+}
+.contactFormImage {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/contactImgBg.jpeg');
+    background-size: cover; 
+    background-position: center;  
+    background-repeat: no-repeat; 
+    box-shadow: 0px 0px 10px 1px #999;
+}
+.contactFormTitle {
+    font-size: 56px;
+}
+.contactFormFrame {
+    margin-top: 40px;
+}
+.nameSection {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    
+}
+
+.formItemHeader {
+    font-weight: bold;
+    font-size: 18px;
+}
+.formItemHeaderRequired {
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+}
+.nameInputFields {
+    width: 50%;
+    
+    padding: 10px;
+}
+
+.nameSectionInput {
+    width: 100%;
+}
+.formSection {
+    margin-top: 20px;
+}
+.inputFieldsDefault {
+    padding: 10px;
+}
+.inputNameFieldsClass {
+    margin-left: 10px;
+}
+@media screen and (max-width: 600px) {
+
+    .defaultInputStyle {
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 16px;
+        border: 1px solid black;
+        font-family: Inter;
+    }
+    .sendButton {
+        background-color: black;
+        color: white;
+        padding: 15px 25px;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 20px;
+        border: none;
+        border-radius: 20px;
+        transition: all 0.4s ease;
+        cursor: pointer;
+    }
+    .sendButton:hover {
+        background-color: #333;
+    }
+    
+    .contactMeSection {
+        display: block;
+        text-align: center;
+        /*justify-content: center;
+        align-items: center;*/
+        margin-top: 80px;
+        margin-bottom: 100px;
+        width: 90%;
+    }
+    .contactForm {
+        width: 100%;
+        margin-inline: 10px;
+        padding: 10px;
+    }
+    .contactFormImageContainer {
+        display: none;
+        width: 40%;
+        height: 800px;
+    }
+    .contactFormImage {
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-image: url('images/contactImgBg.jpeg');
+        background-size: cover; 
+        background-position: center;  
+        background-repeat: no-repeat; 
+        box-shadow: 0px 0px 10px 1px #999;
+    }
+    .contactFormTitle {
+        font-size: 30px;
+    }
+    .contantFormDesc {
+        width: 90%;
+        padding: 20px;
+    }
+    .contactFormFrame {
+        margin-top: 40px;
+        padding: 20px;
+    }
+    .nameSection {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        
+    }
+    
+    .formItemHeader {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .formItemHeaderRequired {
+        color: #666;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .nameInputFields {
+        width: 50%;
+        
+        padding: 10px;
+    }
+    
+    .nameSectionInput {
+        width: 100%;
+    }
+    .formSection {
+        margin-top: 20px;
+    }
+    .inputFieldsDefault {
+        padding: 10px;
+    }
+    .inputNameFieldsClass {
+        margin-left: 0px;
+    }
+
+}

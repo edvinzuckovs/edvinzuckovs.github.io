@@ -1,0 +1,35 @@
+.nafuk{
+    margin-top: 20px;
+    border-top: 1px solid rgb(211, 211, 211);
+    text-align: center;
+}
+.nafUK-legend{
+    font-size: 12px;
+    margin: 10px 0px;
+    font-weight: bold;
+    color: #666;
+}
+.nafUK-legendText{
+    font-size: 12px;
+    margin: 10px 10px;
+    color: #666;
+}
+
+@media screen and (max-width: 600px) {
+    .nafuk{
+        margin-top: 20px;
+        border-top: 1px solid rgb(224, 224, 224);
+        text-align: center;
+    }
+    .nafUK-legend{
+        font-size: 8px;
+        margin: 10px 0px;
+        font-weight: bold;
+        color: #666;
+    }
+    .nafUK-legendText{
+        font-size: 8px;
+        margin: 10px 10px;
+        color: #666;
+    }
+}
