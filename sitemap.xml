@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Website written and maintained by NAFANEEL.UK for EDVIN ZUCKOVS 2024-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.edvinzuckovs.com/</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://www.edvinzuckovs.com/about</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Book Page -->
+  <url>
+    <loc>https://www.edvinzuckovs.com/book</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.85</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.edvinzuckovs.com/contact</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+
+</urlset>
